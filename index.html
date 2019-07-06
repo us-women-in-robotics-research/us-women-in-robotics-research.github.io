@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" /> 
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+	<title>US Women in Robotics Research</title>
+	<meta charset="utf-8" />
+ 	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
+	<h2>US Women in Robotics Research</h2>
+	
+	<a href="https://docs.google.com/forms/d/1N-CY4AZK38SU2r86aazEJNDjdChOfCAY4gvCG1c3y1s/" target="_blank">
+		<button class="button button1">Request to Add Someone to List</button>
+	</a>
+	<a href="https://docs.google.com/forms/d/19kVUgy9F7bFfqehxZw45ENItS67Sn_SYXWOASykAFO0" target="_blank">
+		<button class="button button2">Report Correction or Update</button>
+	</a>
+	<a href="list.csv" download>
+		<button class="button button3">Download List as CSV</button>
+	</a>
 
-<h2>US Women in Robotics Research</h2>
-<a href="https://docs.google.com/forms/d/1N-CY4AZK38SU2r86aazEJNDjdChOfCAY4gvCG1c3y1s/" target="_blank">
-  <button class="button button1">Request to Add Someone to List</button>
-</a>
-<a href="https://docs.google.com/forms/d/19kVUgy9F7bFfqehxZw45ENItS67Sn_SYXWOASykAFO0" target="_blank">
-  <button class="button button2">Report Correction or Update</button>
-</a>
-<a href="list.csv" download>
-  <button class="button button3">Download List as CSV</button>
-</a>
+	<input type="text" id="myInput0" onkeyup="searchLookUp(0)" placeholder="Search by Last Name..." title="Type in a name">
+	<input type="text" id="myInput1" onkeyup="searchLookUp(1)" placeholder="Search by First Name..." title="Type in a name">
+	<input type="text" id="myInput2" onkeyup="searchLookUp(2)" placeholder="Search by Year of PhD..." title="Type in a name">
+	<input type="text" id="myInput3" onkeyup="searchLookUp(3)" placeholder="Search by Research Topic(s)..." title="Type in a name">
 
-<input type="text" id="myInput0" onkeyup="searchLookUp(0)" placeholder="Search by Last Name..." title="Type in a name">
-<input type="text" id="myInput1" onkeyup="searchLookUp(1)" placeholder="Search by First Name..." title="Type in a name">
-<input type="text" id="myInput2" onkeyup="searchLookUp(2)" placeholder="Search by Year of PhD..." title="Type in a name">
-<input type="text" id="myInput3" onkeyup="searchLookUp(3)" placeholder="Search by Research Topic(s)..." title="Type in a name">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
-
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>

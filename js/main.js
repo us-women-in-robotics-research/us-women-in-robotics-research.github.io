@@ -35,7 +35,7 @@ function processData(allText){
   var header = newTable.createTHead();
   var row0 = header.insertRow(0);
 
-  var numColumns = 4;
+  var numColumns = 5;
   for(var i = 0; i < numColumns; ++i){
         var newCell = row0.insertCell(i);
         newCell.innerHTML = "<b>" + headers[i] + "</b>";
@@ -50,7 +50,7 @@ function processData(allText){
       var insertString = data[j];
 
       if(j == numColumns - 1){
-        insertString += getWebLinkString(data[numColumns]);
+        insertString = getWebLinkString(data[numColumns - 1]);
       }
 
       newCell.innerHTML = insertString;
@@ -60,11 +60,11 @@ function processData(allText){
 
 function getWebLinkString(webString){
   if(webString == ""){
-    return "";
+    return "Currently Missing";
   }
-  return " <a href=\"" + 
+  return "<a href=\"" + 
           webString + 
-          "\" target=\"_blank\">(website)</a>";
+          "\" target=\"_blank\">Visit</a>";
 }
 
 function searchLookUp(searchIndex) {

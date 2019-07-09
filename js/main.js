@@ -62,9 +62,9 @@ function getWebLinkString(webString){
   if(webString == ""){
     return "";
   }
-  return "<a href=\"" + 
+  return " <a href=\"" + 
           webString + 
-          "\" target=\"_blank\"> (website)</a>";
+          "\" target=\"_blank\">(website)</a>";
 }
 
 function searchLookUp(searchIndex) {

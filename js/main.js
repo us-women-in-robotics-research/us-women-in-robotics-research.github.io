@@ -49,10 +49,10 @@ function processData(allText){
       var insertString = data[j];
 
       if(j == headers.length - 2){
-        insertString = getWebLinkString(data[headers.length - 2]);
+        insertString = getWebLinkString(data[j]);
       }
       else if(j == headers.length - 1){
-        insertString = getGoogleScholarLinkString(data[headers.length - 1]);
+        insertString = getGoogleScholarLinkString(data[j]);
       }
 
       newCell.innerHTML = insertString;

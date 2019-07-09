@@ -1,61 +1,61 @@
-Last Name,First Name,Year of PhD,Research Topic(s)
-Adams,Julie,1995,"distributed artificial intelligence, swarms, robotics and human-machine teaming"
-Admoni,Henny,2016,"assistive robotics, HRI, nonverbal behavior"
-Amato,Nancy,1995,"robotics, computional biology, motion-planning, parallel and ditributed computing."
-Argall,Brenna,2009,"assistive and rehabilitation robotics, robot learning, shared human-robot control"
-Ayanian,Nora,2011,coordinated multi-robot systems
-Bajcsy,Ruzena,1972,"computer vision, AI, robotics, assistive technologies, human modeling, tele-immersion, sensor networks"
-Banks,Jaime,2013,"HRI, human-machine relationships, perceived moral agency, trust in machines"
-Bergbreiter,Sarah,2004,"miniature robotics, soft robotics, robot locomotion, bio-inspired robotics, soft mechanosensors and skins"
-Berman,Spring,2010,"modeling, analysis, control, and optimization of robotic swarms; the analysis of collective behaviors in biology; and biologically-inspired control of distributed systems"
-Bethel,Cindy,2009,HRI and HCI/interface design
-Bohg,Jeannette,2012,robotic perception and learning for manipulation
-Breazeal,Cynthia,2000,"social robotics (hardware and software), socially situated learning, embodied intelligence; entrprenuership (Jibo)"
-Cakmak,Maya,2012,"assistive robotics, programming by demonstration, end-user programming"
-Chernova,Sonia,2009,"robot autonomy and interaction, semantic reasoning, adjustable autonomy, human computation and cloud robotics, robot perception"
-Culbertson,Heather,2015,"design and control of haptic devices and rendering systems, human-robot interaction, and virtual reality"
-Dragan,Anca,2015,"algorithmic HRI, collaborative manipulation, autonomous driving"
-Fitter,Naomi,2017,"human-robot interaction, haptics, social robotics, physical human-robot interaction, telepresence"
-Gini,Maria,1972,"multi-robot systems, distributed/collective robotics, emergency robotics"
-Guo,Yi,1999,"cooperative and autonomous mobile robotics, nonlinear systems and control, distributed sensor networks, nano-scale systems and control, distributed control of power systems"
-Hauert,Sabine ,2011,"swarm robotics, multi-robot systems, bio-inspired robots, nanorobotics, collective intelligence, swarm intelligence."
-Howard,Ayanna,1999," social robotics, assistive robotics, healthcare robotics, trust & ethics, education,, entreprenuership (founder and CTO Zyrobotics)"
-Kaelbling,Leslie,1990,"designing situated agents, mobile robotics, reinforcement learning, and decision-theoretic planning"
-Kavraki,Lydia,1995,"motion planning, manipulation, robot teams and applications in biology and medicine"
-Knight,Heather,2016,"human-robot interaction, non-verbal machine communications and non-anthropomorphic social robots"
-Kosecka,Jana,1996,computer vision and robotics
-Kramer-Bottiglio,Rebecca,2012,"soft robots, reconfigurable robots, soft-bodied control, responsive material actuators, soft/stretchable sensors, functional printing"
-Kress-Gazit,Hadas ,2008,"formal methods for robotics, control synthesis, high-level planning, verification, language for robots, modular robots, swarm robotics"
-Kuchenbecker,Katherine,2006,"robotic manipulation and hands, haptic (touch-based) perception for robots, novel sensors, haptic interaction"
-Lee,Min Kyung,2013,"social robots, long-term interaction, design"
-Lin,Ming,1993,"multi-robot systems, swarms, motion planning"
-Matarić,Maja,1994,"<a href=""http://robotics.usc.edu/interaction/"">socially assistive robotics, human-robot interaction, robot learning, distributed robotics</a>"
-Moses,Melanie,2005,"swarm robotics, multi-robot systems, bio-inspired robots, ant-inspired algorithms, NASA/space applications, computional models of biology (ants/immune system)"
-Morimoto,Tania,2017,"surgical robotics, soft robotics, virtual/augmented reality, haptics"
-Murphy,Robin,1992,"HRI for field robotics, disasters, integration of autonomy, user interface design"
-Nagpal,Radhika,2001,"multi-robot systems, distributed/collective robotics"
-Nicolescu,Monica,2003,"HRI focusing on the issues of communication, learning, social interactions, and teamwork"
-Nowak,Kristine,2000,"interface design and evaluation, avatar identification and perception, embodied cognition and learning, and information processing and attribution"
-O'Malley,Marcia,1996,"haptics, physical human robot interaction, rehabilitation robotics, wearable robotics,"
-Okamura,Allison,2000,"haptics, teleoperation, human-robot physical interaction, virtual reality, medical applications"
-Park,Hae Won,2014,"social robotics, deep personalization, emotional intelligence, long-term AI"
-Parker,Lynne ,1994,"multi-robot systems, sensor networks, machine learning, and human-robot interaction."
-Petersen,Kirstin,2014,"swarm robotics, multi-robot systems, soft robotics, embodied intelligence, autonomous construction, cyber-physical systems, bio-inspired robotics"
-Pollard,Nancy ,1994,"robot hands, dexterous manipulation"
-Riek,Laurel,2011,"human-robot teaming, computer vision, and healthcare engineering"
-Rus,Daniela,1993,"reconfigurable and self-assembling robots, soft robots, origami robots, microrobots, novel fabrication methods"
-Russo,Sheila,2014,"medical robotics, surgical robotics, soft robotics, foldable robots, reconfigurable robots, origami robots, novel fabrication methods"
-Sabanovic,Selma,2007,"socially interative and assitive robotics, robot design"
-Sadigh,Dorsa,2017,"algorithmic HRI, shared control, collaboration, safety"
-Santos,Veronica,2007,"grasp and manipulation, hand biomechanics, haptics, human-machine systems, machine learning, machine perception, neural control of movement, prosthetics, robotics, stochastic modeling, tactile sensors"
-Shah,Julie,2010,"human-robot teamwork, planning in time-critical and safety-critical domains, applications to aerospace manufacturing, hospitals, space exploration."
-Short,Elaine,2017,"socially assistive robotics, HRI, multi-party HRI"
-Sung,Cynthia ,2016,"origami robotics, reconfigurable robots, design automation/optimization, compliant mechanisms"
-Takayama,Leila,2008,"HRI, HCI, ubiquitous media, re-embodied cognition"
-Tellex,Stefanie,2010,"human-robot collaboration and communication, robot grasping and manipulation, learning"
-Temel,Zeynep,2013,"bio-inspired robots, microrobotics, robot locomotion, foldable robots, modular robots, medical robotics"
-Thomaz,Andrea,2006,"learning from demonstrations, collaborative manipulation, human-like motion, natural human robot interfaces"
-Tilbury,Dawn,1994,control theory and applications
-Veloso,Manuela ,1992,"cobots, multi-robot systems, autonomous robots, indoor navigation, robot soccer, human-AI interaction"
-Xiao,Jing,1990,"robotics, haptics, multi-modal perception, and artificial intelligence"
-Yanco,Holly,2000,"adjustable-autonomy robots, visualization and interfaces, assistive robotics, education and art robotics"
+Last Name,First Name,Year of PhD,Research Topic(s),Website
+Adams,Julie,1995,"distributed artificial intelligence, swarms, robotics and human-machine teaming",
+Admoni,Henny,2016,"assistive robotics, HRI, nonverbal behavior",
+Amato,Nancy,1995,"robotics, computional biology, motion-planning, parallel and ditributed computing.",
+Argall,Brenna,2009,"assistive and rehabilitation robotics, robot learning, shared human-robot control",
+Ayanian,Nora,2011,coordinated multi-robot systems,
+Bajcsy,Ruzena,1972,"computer vision, AI, robotics, assistive technologies, human modeling, tele-immersion, sensor networks",
+Banks,Jaime,2013,"HRI, human-machine relationships, perceived moral agency, trust in machines",
+Bergbreiter,Sarah,2004,"miniature robotics, soft robotics, robot locomotion, bio-inspired robotics, soft mechanosensors and skins",
+Berman,Spring,2010,"modeling, analysis, control, and optimization of robotic swarms; the analysis of collective behaviors in biology; and biologically-inspired control of distributed systems",
+Bethel,Cindy,2009,HRI and HCI/interface design,
+Bohg,Jeannette,2012,robotic perception and learning for manipulation,
+Breazeal,Cynthia,2000,"social robotics (hardware and software), socially situated learning, embodied intelligence; entrprenuership (Jibo)",
+Cakmak,Maya,2012,"assistive robotics, programming by demonstration, end-user programming",
+Chernova,Sonia,2009,"robot autonomy and interaction, semantic reasoning, adjustable autonomy, human computation and cloud robotics, robot perception",
+Culbertson,Heather,2015,"design and control of haptic devices and rendering systems, human-robot interaction, and virtual reality",
+Dragan,Anca,2015,"algorithmic HRI, collaborative manipulation, autonomous driving",
+Fitter,Naomi,2017,"human-robot interaction, haptics, social robotics, physical human-robot interaction, telepresence",
+Gini,Maria,1972,"multi-robot systems, distributed/collective robotics, emergency robotics",
+Guo,Yi,1999,"cooperative and autonomous mobile robotics, nonlinear systems and control, distributed sensor networks, nano-scale systems and control, distributed control of power systems",
+Hauert,Sabine ,2011,"swarm robotics, multi-robot systems, bio-inspired robots, nanorobotics, collective intelligence, swarm intelligence.",
+Howard,Ayanna,1999," social robotics, assistive robotics, healthcare robotics, trust & ethics, education,, entreprenuership (founder and CTO Zyrobotics)",
+Kaelbling,Leslie,1990,"designing situated agents, mobile robotics, reinforcement learning, and decision-theoretic planning",
+Kavraki,Lydia,1995,"motion planning, manipulation, robot teams and applications in biology and medicine",
+Knight,Heather,2016,"human-robot interaction, non-verbal machine communications and non-anthropomorphic social robots",
+Kosecka,Jana,1996,computer vision and robotics,
+Kramer-Bottiglio,Rebecca,2012,"soft robots, reconfigurable robots, soft-bodied control, responsive material actuators, soft/stretchable sensors, functional printing",
+Kress-Gazit,Hadas ,2008,"formal methods for robotics, control synthesis, high-level planning, verification, language for robots, modular robots, swarm robotics",
+Kuchenbecker,Katherine,2006,"robotic manipulation and hands, haptic (touch-based) perception for robots, novel sensors, haptic interaction",
+Lee,Min Kyung,2013,"social robots, long-term interaction, design",
+Lin,Ming,1993,"multi-robot systems, swarms, motion planning",
+Matarić,Maja,1994,"socially assistive robotics, human-robot interaction, robot learning, distributed robotics",http://www-robotics.usc.edu/~maja/
+Moses,Melanie,2005,"swarm robotics, multi-robot systems, bio-inspired robots, ant-inspired algorithms, NASA/space applications, computional models of biology (ants/immune system)",
+Morimoto,Tania,2017,"surgical robotics, soft robotics, virtual/augmented reality, haptics",
+Murphy,Robin,1992,"HRI for field robotics, disasters, integration of autonomy, user interface design",
+Nagpal,Radhika,2001,"multi-robot systems, distributed/collective robotics",
+Nicolescu,Monica,2003,"HRI focusing on the issues of communication, learning, social interactions, and teamwork",
+Nowak,Kristine,2000,"interface design and evaluation, avatar identification and perception, embodied cognition and learning, and information processing and attribution",
+O'Malley,Marcia,1996,"haptics, physical human robot interaction, rehabilitation robotics, wearable robotics,",
+Okamura,Allison,2000,"haptics, teleoperation, human-robot physical interaction, virtual reality, medical applications",
+Park,Hae Won,2014,"social robotics, deep personalization, emotional intelligence, long-term AI",
+Parker,Lynne ,1994,"multi-robot systems, sensor networks, machine learning, and human-robot interaction.",
+Petersen,Kirstin,2014,"swarm robotics, multi-robot systems, soft robotics, embodied intelligence, autonomous construction, cyber-physical systems, bio-inspired robotics",
+Pollard,Nancy ,1994,"robot hands, dexterous manipulation",
+Riek,Laurel,2011,"human-robot teaming, computer vision, and healthcare engineering",
+Rus,Daniela,1993,"reconfigurable and self-assembling robots, soft robots, origami robots, microrobots, novel fabrication methods",
+Russo,Sheila,2014,"medical robotics, surgical robotics, soft robotics, foldable robots, reconfigurable robots, origami robots, novel fabrication methods",
+Sabanovic,Selma,2007,"socially interative and assitive robotics, robot design",
+Sadigh,Dorsa,2017,"algorithmic HRI, shared control, collaboration, safety",
+Santos,Veronica,2007,"grasp and manipulation, hand biomechanics, haptics, human-machine systems, machine learning, machine perception, neural control of movement, prosthetics, robotics, stochastic modeling, tactile sensors",
+Shah,Julie,2010,"human-robot teamwork, planning in time-critical and safety-critical domains, applications to aerospace manufacturing, hospitals, space exploration.",
+Short,Elaine,2017,"socially assistive robotics, HRI, multi-party HRI",
+Sung,Cynthia ,2016,"origami robotics, reconfigurable robots, design automation/optimization, compliant mechanisms",
+Takayama,Leila,2008,"HRI, HCI, ubiquitous media, re-embodied cognition",
+Tellex,Stefanie,2010,"human-robot collaboration and communication, robot grasping and manipulation, learning",
+Temel,Zeynep,2013,"bio-inspired robots, microrobotics, robot locomotion, foldable robots, modular robots, medical robotics",
+Thomaz,Andrea,2006,"learning from demonstrations, collaborative manipulation, human-like motion, natural human robot interfaces",
+Tilbury,Dawn,1994,control theory and applications,
+Veloso,Manuela ,1992,"cobots, multi-robot systems, autonomous robots, indoor navigation, robot soccer, human-AI interaction",
+Xiao,Jing,1990,"robotics, haptics, multi-modal perception, and artificial intelligence",
+Yanco,Holly,2000,"adjustable-autonomy robots, visualization and interfaces, assistive robotics, education and art robotics",

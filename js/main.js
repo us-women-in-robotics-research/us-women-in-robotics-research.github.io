@@ -34,21 +34,32 @@ function processData(allText){
   
   var header = newTable.createTHead();
   var row0 = header.insertRow(0);
-  for(var i = 0; i < headers.length; ++i){
+
+  const var numColumns = 4;
+  for(var i = 0; i < numColumns; ++i){
         var newCell = row0.insertCell(i);
         newCell.innerHTML = "<b>" + headers[i] + "</b>";
   }
 
   for (var i=1; i<allTextLines.length; i++) {
-      var rowX  = newTable.insertRow(i);
-      var data = allTextLines[i];
-      if (data.length == headers.length) {
-        for(var j = 0; j < headers.length; ++j){
-          var newCell = rowX.insertCell(j);
-          newCell.innerHTML = data[j];
+    var rowX  = newTable.insertRow(i);
+    var data = allTextLines[i];
+
+    for(var j = 0; j < numColumns; ++j){
+      var newCell = rowX.insertCell(j);
+      var insertString = data[j];
+
+      if(j == numColumns - 1){
+        insertString += getWebLinkString(data[numColumns]);
       }
+
+      newCell.innerHTML = insertString;
     }
   }
+}
+
+function getWebLinkString(webString){
+  return "<a href=\"" + webString + "> (website)</a>";
 }
 
 function searchLookUp(searchIndex) {

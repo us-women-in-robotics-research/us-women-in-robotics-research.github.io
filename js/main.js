@@ -60,7 +60,7 @@ function processData(allText){
 
 function getWebLinkString(webString){
   if(webString == ""){
-    return "Currently Missing";
+    return "NA";
   }
   return "<a href=\"" + 
           webString + 

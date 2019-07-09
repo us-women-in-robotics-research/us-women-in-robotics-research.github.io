@@ -50,7 +50,9 @@ function processData(allText){
       var insertString = data[j];
 
       if(j == numColumns - 1){
+
         insertString += getWebLinkString(data[numColumns]);
+        console.log(insertString);
       }
 
       newCell.innerHTML = insertString;
@@ -59,7 +61,10 @@ function processData(allText){
 }
 
 function getWebLinkString(webString){
-  return "<a href=\"" + webString + "> (website)</a>";
+  if(webString == ""){
+    return "";
+  }
+  return "<a href=\"" + webString + "\"> (website)</a>";
 }
 
 function searchLookUp(searchIndex) {

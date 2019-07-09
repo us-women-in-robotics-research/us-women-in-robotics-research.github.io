@@ -35,8 +35,7 @@ function processData(allText){
   var header = newTable.createTHead();
   var row0 = header.insertRow(0);
 
-  var numColumns = 5;
-  for(var i = 0; i < numColumns; ++i){
+  for(var i = 0; i < headers.length; ++i){
         var newCell = row0.insertCell(i);
         newCell.innerHTML = "<b>" + headers[i] + "</b>";
   }
@@ -45,15 +44,15 @@ function processData(allText){
     var rowX  = newTable.insertRow(i);
     var data = allTextLines[i];
 
-    for(var j = 0; j < numColumns; ++j){
+    for(var j = 0; j < headers.length; ++j){
       var newCell = rowX.insertCell(j);
       var insertString = data[j];
 
-      if(j == numColumns - 2){
-        insertString = getWebLinkString(data[numColumns - 2]);
+      if(j == headers.length - 2){
+        insertString = getWebLinkString(data[headers.length - 2]);
       }
-      else if(j == numColumns - 1){
-        insertString = getGoogleScholarLinkString(data[numColumns - 1]);
+      else if(j == headers.length - 1){
+        insertString = getGoogleScholarLinkString(data[headers.length - 1]);
       }
 
       newCell.innerHTML = insertString;

@@ -1,16 +1,16 @@
 Last Name,First Name,Year of PhD,Research Topic(s),Website
-Adams,Julie,1995,"distributed artificial intelligence, swarms, robotics and human-machine teaming",
-Admoni,Henny,2016,"assistive robotics, HRI, nonverbal behavior",
-Amato,Nancy,1995,"robotics, computional biology, motion-planning, parallel and ditributed computing.",
-Argall,Brenna,2009,"assistive and rehabilitation robotics, robot learning, shared human-robot control",
-Ayanian,Nora,2011,coordinated multi-robot systems,
-Bajcsy,Ruzena,1972,"computer vision, AI, robotics, assistive technologies, human modeling, tele-immersion, sensor networks",
+Adams,Julie,1995,"distributed artificial intelligence, swarms, robotics and human-machine teaming",http://research.engr.oregonstate.edu/hmtl/
+Admoni,Henny,2016,"assistive robotics, HRI, nonverbal behavior",http://hennyadmoni.com/
+Amato,Nancy,1995,"robotics, computional biology, motion-planning, parallel and ditributed computing.",https://parasol.tamu.edu/~amato/
+Argall,Brenna,2009,"assistive and rehabilitation robotics, robot learning, shared human-robot control",https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/argall-brenna.html
+Ayanian,Nora,2011,coordinated multi-robot systems,http://www-bcf.usc.edu/~ayanian/
+Bajcsy,Ruzena,1972,"computer vision, AI, robotics, assistive technologies, human modeling, tele-immersion, sensor networks",https://people.eecs.berkeley.edu/~bajcsy/
 Banks,Jaime,2013,"HRI, human-machine relationships, perceived moral agency, trust in machines",
-Bergbreiter,Sarah,2004,"miniature robotics, soft robotics, robot locomotion, bio-inspired robotics, soft mechanosensors and skins",
-Berman,Spring,2010,"modeling, analysis, control, and optimization of robotic swarms; the analysis of collective behaviors in biology; and biologically-inspired control of distributed systems",
-Bethel,Cindy,2009,HRI and HCI/interface design,
-Bohg,Jeannette,2012,robotic perception and learning for manipulation,
-Breazeal,Cynthia,2000,"social robotics (hardware and software), socially situated learning, embodied intelligence; entrprenuership (Jibo)",
+Bergbreiter,Sarah,2004,"miniature robotics, soft robotics, robot locomotion, bio-inspired robotics, soft mechanosensors and skins",https://www.meche.engineering.cmu.edu/directory/bios/bergbreiter-sarah.html
+Berman,Spring,2010,"modeling, analysis, control, and optimization of robotic swarms; the analysis of collective behaviors in biology; and biologically-inspired control of distributed systems",http://faculty.engineering.asu.edu/acs/springberman
+Bethel,Cindy,2009,HRI and HCI/interface design,https://www.cindybethel.com/
+Bohg,Jeannette,2012,robotic perception and learning for manipulation,http://iprl.stanford.edu/
+Breazeal,Cynthia,2000,"social robotics (hardware and software), socially situated learning, embodied intelligence; entrprenuership (Jibo)",https://cynthiabreazeal.media.mit.edu/
 Cakmak,Maya,2012,"assistive robotics, programming by demonstration, end-user programming",
 Chernova,Sonia,2009,"robot autonomy and interaction, semantic reasoning, adjustable autonomy, human computation and cloud robotics, robot perception",
 Culbertson,Heather,2015,"design and control of haptic devices and rendering systems, human-robot interaction, and virtual reality",
@@ -19,7 +19,7 @@ Fitter,Naomi,2017,"human-robot interaction, haptics, social robotics, physical h
 Gini,Maria,1972,"multi-robot systems, distributed/collective robotics, emergency robotics",
 Guo,Yi,1999,"cooperative and autonomous mobile robotics, nonlinear systems and control, distributed sensor networks, nano-scale systems and control, distributed control of power systems",
 Hauert,Sabine ,2011,"swarm robotics, multi-robot systems, bio-inspired robots, nanorobotics, collective intelligence, swarm intelligence.",
-Howard,Ayanna,1999," social robotics, assistive robotics, healthcare robotics, trust & ethics, education,, entreprenuership (founder and CTO Zyrobotics)",
+Howard,Ayanna,1999," social robotics, assistive robotics, healthcare robotics, trust & ethics, education, entreprenuership (founder and CTO Zyrobotics)",
 Kaelbling,Leslie,1990,"designing situated agents, mobile robotics, reinforcement learning, and decision-theoretic planning",
 Kavraki,Lydia,1995,"motion planning, manipulation, robot teams and applications in biology and medicine",
 Knight,Heather,2016,"human-robot interaction, non-verbal machine communications and non-anthropomorphic social robots",

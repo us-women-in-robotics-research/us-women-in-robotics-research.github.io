@@ -49,8 +49,11 @@ function processData(allText){
       var newCell = rowX.insertCell(j);
       var insertString = data[j];
 
-      if(j == numColumns - 1){
-        insertString = getWebLinkString(data[numColumns - 1]);
+      if(j == numColumns - 2){
+        insertString = getWebLinkString(data[numColumns - 2]);
+      }
+      else if(j == numColumns - 1){
+        insertString = getGoogleScholarLinkString(data[numColumns - 1]);
       }
 
       newCell.innerHTML = insertString;
@@ -65,6 +68,15 @@ function getWebLinkString(webString){
   return "<a href=\"" + 
           webString + 
           "\" target=\"_blank\">Visit</a>";
+}
+
+function getGoogleScholarString(webString){
+  if(webString == ""){
+    return "NA";
+  }
+  return "<a href=\"" + 
+          webString + 
+          "\" target=\"_blank\">Link</a>";
 }
 
 function searchLookUp(searchIndex) {

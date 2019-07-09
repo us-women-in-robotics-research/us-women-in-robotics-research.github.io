@@ -70,7 +70,7 @@ function getWebLinkString(webString){
           "\" target=\"_blank\">Visit</a>";
 }
 
-function getGoogleScholarString(webString){
+function getGoogleScholarLinkString(webString){
   if(webString == ""){
     return "NA";
   }

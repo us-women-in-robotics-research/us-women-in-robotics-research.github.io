@@ -35,7 +35,7 @@ function processData(allText){
   var header = newTable.createTHead();
   var row0 = header.insertRow(0);
 
-  const var numColumns = 4;
+  var numColumns = 4;
   for(var i = 0; i < numColumns; ++i){
         var newCell = row0.insertCell(i);
         newCell.innerHTML = "<b>" + headers[i] + "</b>";

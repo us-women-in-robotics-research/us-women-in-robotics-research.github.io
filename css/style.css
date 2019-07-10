@@ -1,5 +1,5 @@
 table {
-  font-family: arial, sans-serif;
+  font-family: serif;
   border-collapse: collapse;
   width: 100%;
 }
@@ -16,6 +16,7 @@ tr:nth-child(even) {
 
 
 .button {
+  font-family: serif;
   background-color: #008CBA;
   border: none;
   color: white;
@@ -66,40 +67,44 @@ tr:nth-child(even) {
 
 
 #myInput0 {
+  font-family: serif;
   background-image: url('searchicon.png');
   background-position: 6px 6px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 95%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
 #myInput1 {
+  font-family: serif;
   background-image: url('searchicon.png');
   background-position: 6px 6px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 95%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
 #myInput2 {
+  font-family: serif;
   background-image: url('searchicon.png');
   background-position: 6px 6px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 95%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;
   margin-bottom: 12px;
 }
 #myInput3 {
+  font-family: serif;
   background-image: url('searchicon.png');
   background-position: 6px 6px;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 95%;
   font-size: 16px;
   padding: 12px 20px 12px 40px;
   border: 1px solid #ddd;

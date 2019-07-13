@@ -8,7 +8,7 @@ You can request to [add someone here](https://docs.google.com/forms/d/1N-CY4AZK3
 
 ## Want to make your own similar site?
 
-This site was fairly straight forward to put together and host. Github makes it very easy and free. [Here](https://pages.github.com/) is a link on how to create and github site. Feel free to clone/copy any of the code you find in this repository.
+This site was fairly straight forward to put together and host. Github makes it very easy and free. [Here](https://pages.github.com/) is a link on how to create and host a github site. Feel free to clone/copy any of the code you find in this repository.
 
 ## Want to contribute to this site?
 

@@ -1,6 +1,6 @@
 # [women-in-robotics-research.github.io](https://us-women-in-robotics-research.github.io/)
 
-This repo hosts the website listing current women in the United States doing robotics research. It is currently maintained by [Tom Groechel](https://tgroechel.github.io/) from [Maja Mataric's](http://www-robotics.usc.edu/~maja/) [Interaction Lab](http://robotics.usc.edu/interaction/).
+This repo hosts the website listing current women in the United States doing robotics research. It is currently maintained by Ph.D. students from [Maja Mataric's](http://www-robotics.usc.edu/~maja/) [Interaction Lab](http://robotics.usc.edu/interaction/).
 
 ## Add Someone / Report Correction
 

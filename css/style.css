@@ -14,6 +14,15 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+#wrap { 
+  margin: 0 auto; 
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 
 .button {
   font-family: serif;

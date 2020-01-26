@@ -35,8 +35,13 @@ function processData(allText){
   var header = newTable.createTHead();
   var row0 = header.insertRow(0);
 
+  // Index col header
+  var indexCell = row0.insertCell(0);
+  indexCell.innerHTML = "<b></b>";
+
+  // Data col headers
   for(var i = 0; i < headers.length; ++i){
-        var newCell = row0.insertCell(i);
+        var newCell = row0.insertCell(i + 1);
         newCell.innerHTML = "<b>" + headers[i] + "</b>";
   }
 
@@ -44,17 +49,23 @@ function processData(allText){
     var rowX  = newTable.insertRow(i);
     var data = allTextLines[i];
 
-    for(var j = 0; j < headers.length; ++j){
-      var newCell = rowX.insertCell(j);
-      var insertString = data[j];
-
+    for(var j = -1; j < headers.length; ++j){
+      var newCell = rowX.insertCell(j+1);
+      var insertString = i;
+      // Index col
+      if(j == -1){
+        newCell.innerHTML = insertString;
+        continue;
+      }
+      
+      // Data cols
+      insertString = data[j];
       if(j == headers.length - 2){
         insertString = getWebLinkString(data[j]);
       }
       else if(j == headers.length - 1){
         insertString = getGoogleScholarLinkString(data[j]);
       }
-
       newCell.innerHTML = insertString;
     }
   }
@@ -79,13 +90,14 @@ function getGoogleScholarLinkString(webString){
 }
 
 function searchLookUp(searchIndex) {
+  searchIndex = searchIndex;
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput" + searchIndex);
   filter = input.value.toUpperCase();
   table = document.getElementById("myTable");
   tr = table.getElementsByTagName("tr");
   for (i = 1; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[searchIndex];
+    td = tr[i].getElementsByTagName("td")[searchIndex + 1];
     if (td) {
       txtValue = td.textContent || td.innerText;
       if (txtValue.toUpperCase().indexOf(filter) > -1) {

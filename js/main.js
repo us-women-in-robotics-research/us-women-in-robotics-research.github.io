@@ -60,12 +60,12 @@ function processData(allText){
       
       // Data cols
       insertString = data[j];
-      if(j == headers.length - 2){
+      if(j == headers.length - 1){
         insertString = getWebLinkString(data[j]);
       }
-      else if(j == headers.length - 1){
-        insertString = getGoogleScholarLinkString(data[j]);
-      }
+      // else if(j == headers.length - 1){
+      //   insertString = getGoogleScholarLinkString(data[j]);
+      // }
       newCell.innerHTML = insertString;
     }
   }

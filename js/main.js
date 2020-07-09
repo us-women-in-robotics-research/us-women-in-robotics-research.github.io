@@ -74,7 +74,6 @@ function processData(allText){
 
 function createTotalText(total){
   totalText = document.getElementById("totalText");
-  console.log(totalText);
   totalText.innerHTML = "<b>Total: </b>" + total;
 }
 

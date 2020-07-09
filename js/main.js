@@ -60,15 +60,22 @@ function processData(allText){
       
       // Data cols
       insertString = data[j];
-      if(j == headers.length - 1){
+      if(j == headers.length - 1){          // website link
         insertString = getWebLinkString(data[j]);
       }
-      // else if(j == headers.length - 1){
+      // else if(j == headers.length - 1){  // used to have Google Scholar link
       //   insertString = getGoogleScholarLinkString(data[j]);
       // }
       newCell.innerHTML = insertString;
     }
   }
+  createTotalText(allTextLines.length-1);
+}
+
+function createTotalText(total){
+  totalText = document.getElementById("totalText");
+  console.log(totalText);
+  totalText.innerHTML = "<b>Total: </b>" + total;
 }
 
 function getWebLinkString(webString){

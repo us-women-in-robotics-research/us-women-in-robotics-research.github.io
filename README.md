@@ -18,11 +18,11 @@ Feel free to fork this repository and submit a pull request.
 
 Q. Why do you not include {group/country/positions}?
 
-A. This website was created and updated by PhD students from the Interaction Lab. We would love to add in more people but the problem becomes intractable for us to monitor and update when doing so.
+A. This website was created and updated by PhD students from the Interaction Lab. We would love to add in more people but the problem becomes intractable for us to monitor and update when doing so. We encourage others to reach out to us and create more lists.
 
 Q. Why did X person not get on the list?
 
-A. We search for the person on the web, typically first using their provided website. The qualifications for the list are having a PhD and currently in an academic position (e.g., Professor, Postdoctoral Researcher) doing robotics research.
+A. We search for the person on the web, typically first using their provided website. The qualifications for the list are having a PhD and currently in an academic position (e.g., Professor, Postdoctoral Researcher) doing robotics research in the US.
 
 Q. Do you have a list of robotics topics?
 

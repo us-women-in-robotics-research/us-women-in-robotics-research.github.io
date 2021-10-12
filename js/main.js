@@ -126,7 +126,7 @@ function setModifiedDate() {
         console.log(commits);
         var modified = commits[0]['commit']['committer']['date'].slice(0,10);
         if(modified != '{{ page.date | date: "%Y-%m-%d" }}') {
-          document.getElementById('last-modified').textContent = "Last Updated (Y/M/D): " + modified + ". All submissions up until this date have been reviewed. Typically this list receives submissions a couple of times a year when it is publicized on robotics worldwide. The owners are automatically emailed any time something is submitted.";
+          document.getElementById('last-modified').textContent = "Last Updated (Y/M/D): " + modified + '. All submissions up until this date have been reviewed. Typically this list receives submissions a couple of times a year when it is publicized on robotics worldwide. The owners are automatically emailed any time something is submitted.';
         }
       });
   }

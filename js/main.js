@@ -70,6 +70,7 @@ function processData(allText){
     }
   }
   createTotalText(allTextLines.length-1);
+  setModifiedDate();
 }
 
 function createTotalText(total){
@@ -113,4 +114,20 @@ function searchLookUp(searchIndex) {
       }
     }       
   }
+}
+
+function setModifiedDate() {
+  if (document.getElementById('last-modified')) {
+    fetch("https://api.github.com/repos/us-women-in-robotics-research/us-women-in-robotics-research.github.io/commits")
+      .then((response) => {
+        return response.json();
+      })
+      .then((commits) => {
+        console.log(commits);
+        var modified = commits[0]['commit']['committer']['date'].slice(0,10);
+        if(modified != '{{ page.date | date: "%Y-%m-%d" }}') {
+          document.getElementById('last-modified').textContent = "Last Updated (Y/M/D): " + modified + ". All submissions up until this date have been reviewed. Typically this list receives submissions a couple of times a year when it is publicized on robotics worldwide. The owners are automatically emailed any time something is submitted.";
+        }
+      });
   }
+}
